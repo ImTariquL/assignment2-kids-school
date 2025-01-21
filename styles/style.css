@@ -31,6 +31,10 @@
     align-items: center;
     justify-content: space-between;
   }
+  .hamburger{
+    height: 30px;
+    width: 30px;
+  }
   .icon{
     list-style: none;
     margin-left: 20px;
@@ -65,7 +69,7 @@
   }
   
   .btn-primary{
-    width: 160px;
+    width: 197px;
     height: 50px;
     color: white ;
     background-color: orange;
@@ -209,19 +213,17 @@
 
 
 .story-content{
-    /* width: 1160px; */
     display: grid;
     gap: 20px;
     grid-template-columns: 540px 290px 290px;
     grid-template-rows: 301px 301px;
-    /* text-align: center; */
     width: 1160px;
     margin: 0 auto;
     border-spacing: 0px;
 }
 
 .story-container{
-    margin-bottom: 189px;
+    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .story1{
    grid-row: span 2;
@@ -237,9 +239,11 @@
 .story-img{
     border-radius: 16px 16px 0px 0px;
     margin-bottom: 0px;
+    background:none;
 }
 .story-card{
     background-color: white;
+    border-radius: 16px;
 }
 .btn-story{
     width: 175px;
@@ -247,8 +251,7 @@
     border-radius: 47px;
     border-style: none;
     color: white;
-    position: relative;
-    margin-top: ;
+    margin-top: -20px;
 }
 .btn1{
     background-color: #3CD8E8;
@@ -290,30 +293,90 @@
 }
 
 
-
-
 .bg-img{
     background-image: url("/assets/bg.png");
 }
 
 
+.view-btn{
+    background-color: black;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.view-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1160px;
+    margin: 0 auto;
+}
 
+/* ----------------------footer section----------------- */
+.footer-brand{
+    display: flex;
+    width: 299px;
+    height: 81px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    height: 519px;
+    padding: 123px 229px 174px 129px;
+}
+.footer-kids{
+    color: white;
+}
+.image-container{
+    display: flex;
+    gap: 10px;
+}
+footer{
+    background-color: #01ACFD;
+}
 
+.kids-description{
+    width: 399px;
+    height: 100px;
+    font-size: 20px;
+}
+.footer-about{
+    width: 156px;
+    color: white;
+    margin-left: 172px;
+    margin-right: 132px;
+}
 
+.about-title{
+    font-weight: 700px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.about-subtitle{
+    font-size: 20px;
+    font-weight: 500px;
+    gap: 20px;
+}
+.touch-title{
+    color: white;
+    width: 177px;
+    font-size: 24px;
+    font-weight: 700px;
+    margin-bottom: 32px;
+    margin-top: -55px;
+}
 
+.img-container{
+    width: 192px;
+    gap: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.hidden{
+    display: none;
+}
 
 
 
@@ -324,5 +387,12 @@
     .nav-content,button{
         display: none;
     }
-
+    .nav-container{
+        
+    }
+  }
+  @media screen and (min-width:576px) {
+    .hamburger{
+        display: none;
+    }
   }
