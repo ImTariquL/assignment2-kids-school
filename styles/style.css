@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  .nav-container{
+    display: flex;
+  }
+  .brand-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .icon{
+    list-style: none;
+    margin-left: 20px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .brand{
+    font-size: 2em;
+    font-weight: 700px;
+  }
+  .icon1{
+    font-weight: 700px;
+    font-size: 20px;
+    color: orange;
+  }
+  .icon2{
+    font-weight: 700px;
+    font-size: 20px;
+    color: skyblue;
+  }
+  .icon3{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #05D4DF;
+  }
+  .icon4{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #5D58EF;
+  }
+  
+  .btn-primary{
+    width: 160px;
+    height: 50px;
+    color: white ;
+    background-color: orange;
+    border-style: none;
+    border-radius: 12px;
+  }
+
+.nav-container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/* --------------------banner left---------- */
+.left{
+    width: 640px;
+    height: 331px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero-title{
+    font-size: 56px;
+    font-weight: 700px;
+}
+.hero-description{
+    font-size: 20px;
+    margin-top: 24px;
+}
+.btn-secondary{
+    height: 50px;
+    width: 197px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+/* ---------banner right--------- */
+
+.right{
+    width: 468px;
+    height: 575px;
+}
+
+/* ------------standard section---------- */
+
+.std-title{
+    height: 57px;
+    width: 1160px;
+    margin: 0 auto;
+    font-size: 46px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.card-container{
+    display: flex;
+    gap:28px ;
+    width: 1160px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 367px;
+    height:476px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700px;
+    margin: 32px 0;
+}
+.card-description{
+    font-size: 15px;
+    font-weight: 500px;
+    color: #808080;
+    margin-bottom: 32px;
+}
+.card-footer{
+    color: ;
+    font-weight: 700px;
+    font-size: 15px;
+}
+.card-content1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card-content2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    height: 481px;
+}
+.card-content3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.std-footer1{
+    color: #64C8FF;
+}
+.std-footer2{
+    color: #F0AA00;
+}
+.std-footer3 {
+    color: #8700FF;
+}
+.arrow{
+    text-align: center;
+}
+
+
+/* -------standard footer------------ */
+
+.circle{
+    height: 60px;
+    width: 60px;
+   background-color: orange;
+    border-radius: 30px;
+}
+
+.std-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+/* ----------- Our story ---------------- */
+
+
+.story-content{
+    /* width: 1160px; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 540px 290px 290px;
+    grid-template-rows: 301px 301px;
+    /* text-align: center; */
+    width: 1160px;
+    margin: 0 auto;
+    border-spacing: 0px;
+}
+
+.story-container{
+    margin-bottom: 189px;
+}
+.story1{
+   grid-row: span 2;
+}
+
+
+.big-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700px;
+    margin: 60px 0 80px 0;
+}
+.story-img{
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 0px;
+}
+.story-card{
+    background-color: white;
+}
+.btn-story{
+    width: 175px;
+    height: 38px;
+    border-radius: 47px;
+    border-style: none;
+    color: white;
+    position: relative;
+    margin-top: ;
+}
+.btn1{
+    background-color: #3CD8E8;
+}
+
+.btn2{
+    background-color: #95B226;
+    margin: 5px ;
+}
+.btn3{
+    background-color: #5D58F0;
+}
+.btn4{
+    background-color: #95B226;
+}
+.btn5{
+    width:: 127px;
+    background-color: #95B226;
+}
+
+
+.btn-story, .story-title,.story-description{
+    margin-left: 38px;
+    margin-top: 0px;
+}
+.story-title{
+    margin-top: 19px;
+    font-weight: 700px;
+    font-size: 15px;
+}
+.title1{
+    margin: 33px 0 47px 38px;
+    font-weight: 700px;
+    font-size: 24px;
+}
+.story-description{
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+
+
+
+.bg-img{
+    background-image: url("/assets/bg.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:576px) {
+    .nav-content,button{
+        display: none;
+    }
+
+  }
