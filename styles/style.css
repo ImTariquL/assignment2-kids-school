@@ -15,6 +15,7 @@
   }
   .nav-container{
     display: flex;
+    border: 1px solid orange;
   }
   .brand-content{
     display: flex;
@@ -384,15 +385,20 @@ footer{
 
 
   @media screen and (max-width:576px) {
-    .nav-content,button{
+    .nav-content,button, .brand{
         display: none;
     }
     .nav-container{
-        
+        width: 390px;
+        margin: 0 auto;
+        padding: 12px 16px;
     }
   }
   @media screen and (min-width:576px) {
     .hamburger{
         display: none;
+    }
+    .nav-container{
+       border: none;
     }
   }
