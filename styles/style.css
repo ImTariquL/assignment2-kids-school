@@ -553,7 +553,7 @@ button:hover{
         flex-direction: column;
     }
     .footer-about {
-        /* margin-left: -90px; */
+        margin-left: 40px;
         margin-top: 50px;
     }
     .story-card{
@@ -564,7 +564,7 @@ button:hover{
         margin-top: 50px;
     }
     .btn-story{
-        width: 50%;
+        width: 70%;
         position: static;
     }
     footer {
@@ -575,10 +575,18 @@ button:hover{
         margin-left: 150px;
     }
     .touch{
-        /* margin-left: -202px; */
+        margin-left: -70px;
         margin-top: 50px;
     }
-  
+  .btn-story{
+    position: relative;
+  }
+  .btn-description{
+    text-align: center;
+  }
+  .story-title{
+    margin-left: 5px;
+  }
 }
 
 
