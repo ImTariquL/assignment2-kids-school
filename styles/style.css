@@ -253,10 +253,7 @@ a {
     width: 540px;
     height: 630px;
 }
-.story-content{
-    width: 1160px;
-    margin: 0 auto;
-}
+
 .story-left {
     width: 601px;
     display: grid;
@@ -478,7 +475,9 @@ button:hover{
     .story-right {
         display: none;
     }
-
+    .image{
+        width: 100%;
+    }
     .right ,.left{
         width: 100%;
         gap: 5px;
@@ -554,23 +553,29 @@ button:hover{
         flex-direction: column;
     }
     .footer-about {
-        margin-left: -90px;
+        /* margin-left: -90px; */
         margin-top: 50px;
     }
-
+    .story-card{
+        max-width: 100%;
+    }
     .touch-title {
         margin-bottom: 20px;
         margin-top: 50px;
     }
-
+    .btn-story{
+        width: 50%;
+        position: static;
+    }
     footer {
         margin: 0 auto;
     }
     .footer-kids{
         font-size: 24px;
+        margin-left: 150px;
     }
     .touch{
-        margin-left: -202px;
+        /* margin-left: -202px; */
         margin-top: 50px;
     }
   
