@@ -256,7 +256,10 @@ a {
     width: 540px;
     height: 630px;
 }
-
+.story-content{
+    width: 1160px;
+    margin: 0 auto;
+}
 .story-left {
     width: 601px;
     display: grid;
@@ -533,16 +536,13 @@ button:hover{
         margin: 0 auto;
        
     }
-    /* .story-card{
-        width: 90%;
-        grid-template-columns: repeat(2,1fr);
-    } */
+  
     .story-img{
         width: 100%;
     }
     .story-content {
         width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
         margin: 0 auto;
     }
     .story-container{
