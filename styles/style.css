@@ -186,7 +186,6 @@ a {
 }
 
 .card-footer {
-    color: ;
     font-weight: 700px;
     font-size: 15px;
 }
@@ -499,11 +498,23 @@ button:hover{
         overflow: hidden;
     }
     .nav-container {
-        justify-content:space-between ;
+        /* justify-content:space-between ;
         width: 100%;
-        margin: 0px;
-    }
+        margin: 0px; */
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
 
+    }
+    .brand-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .hero {
         flex-direction: column-reverse;
         align-items: center;
@@ -515,24 +526,28 @@ button:hover{
     }
     .view-all{
         width: 100%;
+        margin-top: -40px;
     }
 
     .big-title {
+        font-size: 36px;
         margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .card-container {
-        width: 100%;
+        width: 95%;
         flex-direction: column;
     }
 
     .card {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .story-left {
-        /* width: 100%; */
+        width: 95%; 
         margin: 0 auto;
        
     }
@@ -548,19 +563,19 @@ button:hover{
         margin: 0 auto;
     }
     .story-container{
-        width: 90%;
-        gap: 5px    ;
+        width: 100%;
+        gap: 5px ;
         margin: 0 auto;
     }
     .footer-content {
         flex-direction: column;
     }
-    .story-right{
+    /* .story-right{
     width: 90% ;
     margin: 0 auto;
-    }
+    } */
     .footer-about {
-        margin-left: -110px;
+        margin-left: -90px;
         margin-top: 50px;
     }
 
@@ -570,14 +585,13 @@ button:hover{
     }
 
     footer {
-        /* width: 1160px; */
         margin: 0 auto;
     }
     .footer-kids{
         font-size: 24px;
     }
     .touch{
-        margin-left: -220px;
+        margin-left: -202px;
         margin-top: 50px;
     }
   
