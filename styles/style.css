@@ -101,7 +101,6 @@ a {
     background-color: blueviolet;
 }
 
-
 /* --------------------banner left---------- */
 .left {
     width: 640px;
@@ -309,7 +308,6 @@ a {
 
 .btn2 {
     background-color: #95B226;
-    /* margin: 5px ; */
 }
 
 .btn3 {
@@ -321,7 +319,6 @@ a {
 }
 
 .btn5 {
-    width: : 127px;
     background-color: #95B226;
 }
 
@@ -397,7 +394,6 @@ a {
 }
 
 .footer-container {
-    /* height: 519px; */
     padding: 123px 229px 174px 129px;
 }
 
@@ -461,9 +457,6 @@ footer {
     gap: 10px;
 }
 
-
-
-
 button:hover{
     font-size: medium;
     
@@ -473,9 +466,6 @@ button:hover{
     font-size: x-large;
     color: red;
 }
-
-
-
 
 /* -------------------------responsive media query-------------- */
 
@@ -498,16 +488,12 @@ button:hover{
         overflow: hidden;
     }
     .nav-container {
-        /* justify-content:space-between ;
-        width: 100%;
-        margin: 0px; */
         width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
         align-items: start;
         justify-content: space-between;
-
     }
     .brand-container{
         width: 100%;
@@ -543,7 +529,6 @@ button:hover{
 
     .card {
         width: 100%;
-        /* margin: 0 auto; */
     }
 
     .story-left {
@@ -559,7 +544,6 @@ button:hover{
     }
     .story-content {
         width: 100%;
-        /* flex-direction: column; */
         margin: 0 auto;
     }
     .story-container{
@@ -570,10 +554,6 @@ button:hover{
     .footer-content {
         flex-direction: column;
     }
-    /* .story-right{
-    width: 90% ;
-    margin: 0 auto;
-    } */
     .footer-about {
         margin-left: -90px;
         margin-top: 50px;
