@@ -509,10 +509,10 @@ button:hover{
         align-items: center;
         text-align: center;
     }
-.std-title{
+    .std-title{
     width: 100%;
     margin-top: 200px;
-}
+    }
     .view-all{
         width: 100%;
     }
@@ -536,7 +536,9 @@ button:hover{
         margin: 0 auto;
        
     }
-  
+    .btn-story{
+        position: relative;
+    }
     .story-img{
         width: 100%;
     }
@@ -546,13 +548,17 @@ button:hover{
         margin: 0 auto;
     }
     .story-container{
-        width: 100%;
+        width: 90%;
+        gap: 5px    ;
         margin: 0 auto;
     }
     .footer-content {
         flex-direction: column;
     }
-
+    .story-right{
+    width: 90% ;
+    margin: 0 auto;
+    }
     .footer-about {
         margin-left: -110px;
         margin-top: 50px;
